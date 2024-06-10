@@ -41,7 +41,7 @@ private:
     QTreeWidget *treeWidget = new QTreeWidget();
 
     QList<QTreeWidgetItem*> treeWidgetItems;
-    QList<QTreeWidgetItem*> tTreeWidgetItems;
+    QList<QList<QTreeWidgetItem*>> treeWidgetChildren;
     QStringList ProjectNames;
 
 private slots:
